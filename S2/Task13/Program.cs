@@ -1,7 +1,7 @@
 ﻿// Решение задачи № 13
 
 // метод выделения 3 цифры
-void DecimalView(int num)
+void DecimalView(Int64 num)
 {
     if (Math.Abs(num) < 100)
     {
@@ -17,4 +17,4 @@ void DecimalView(int num)
 // ввод данных
 Console.Write("Ведите целое число: ");
 //вызываю метод
-DecimalView(Convert.ToInt32(Console.ReadLine()));
+DecimalView(Convert.ToInt64(Console.ReadLine()));
