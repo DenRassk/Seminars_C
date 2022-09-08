@@ -11,7 +11,7 @@ void Palindrom(String number)
     // проверяем число
     int count = 0;
     Console.WriteLine("Число является палиндромом? ");
-    while (count < number.Length )
+    while (count < number.Length/2 )
     {   
         // если находим не соответствие - заканчиваем проверку
         if (number[count] != number[number.Length-count-1])
@@ -24,7 +24,7 @@ void Palindrom(String number)
         count ++ ;
     }
     // проверяем причину окончания цикла
-    if (count == number.Length)
+    if (count == number.Length/2)
     {
         Console.WriteLine("Да");
     }
