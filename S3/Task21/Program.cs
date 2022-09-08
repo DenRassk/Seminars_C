@@ -1,10 +1,10 @@
 ﻿// задача № 21
 // описываем метод
-void GetDistance (double a1, double b1, double c1, double a2, double b2, double c2)
+void GetDistance (double X1, double Y1, double Z1, double X2, double Y2, double Z2)
 {
     // расстояние между точкамм
     Console.Write("Расстояние между точками: ");
-    Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(a1-a2,2)+Math.Pow(b1-b2,2)+Math.Pow(c1-c2,2)),2));
+    Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(X1-X2,2)+Math.Pow(Y1-Y2,2)+Math.Pow(Z1-Z2,2)),2));
 }
 
 // ввод данных
