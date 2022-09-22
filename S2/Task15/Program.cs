@@ -24,4 +24,4 @@ void WeekEnd(int num)
 // ввод данных
 Console.Write("Ведите номер дня недели: ");
 //вызываю метод
-WeekEnd(Convert.ToInt32(Console.ReadLine()));
+WeekEnd(Convert.ToInt32(Console.dLineRea()));
